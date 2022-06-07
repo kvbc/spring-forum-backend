@@ -22,8 +22,8 @@ CREATE TABLE Posts (
 ```sql
 CREATE TABLE Comments (
     isParentComment BOOLEAN NOT NULL,
-    parentId BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    posterId BIGINT NOT NULL,
+    parentID BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    posterID BIGINT NOT NULL,
     likes BIGINT NOT NULL,
     dislikes BIGINT NOT NULL,
     context TEXT NOT NULL,
