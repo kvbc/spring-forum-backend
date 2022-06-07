@@ -5,8 +5,8 @@ SQL Tables
 ```sql
 CREATE TABLE Users (
     id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    login TINYTEXT NOT NULL,
-    password TINYTEXT NOT NULL
+    login VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL
 );
 ```
 ```sql
