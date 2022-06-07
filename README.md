@@ -26,7 +26,7 @@ CREATE TABLE Comments (
     posterID BIGINT NOT NULL,
     likes BIGINT NOT NULL,
     dislikes BIGINT NOT NULL,
-    context TEXT NOT NULL,
+    content TEXT NOT NULL,
     creationDate TIMESTAMP NOT NULL
 );
 ```
