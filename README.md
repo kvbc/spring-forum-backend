@@ -29,3 +29,4 @@ CREATE TABLE Comments(
     context TEXT NOT NULL,
     creationDate TIMESTAMP NOT NULL
 );
+```
