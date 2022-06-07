@@ -3,14 +3,14 @@
 SQL Tables
 
 ```sql
-CREATE TABLE Users(
+CREATE TABLE Users (
     id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     login TINYTEXT NOT NULL,
     password TINYTEXT NOT NULL
 );
 ```
 ```sql
-CREATE TABLE Posts(
+CREATE TABLE Posts (
     id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     title TINYTEXT NOT NULL,
     content TINYTEXT NOT NULL,
@@ -20,8 +20,8 @@ CREATE TABLE Posts(
 ```
 
 ```sql
-CREATE TABLE Comments(
-    isParentComment BOOL NOT NULL,
+CREATE TABLE Comments (
+    isParentComment BOOLEAN NOT NULL,
     parentId BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     posterId BIGINT NOT NULL,
     likes BIGINT NOT NULL,
