@@ -9,3 +9,12 @@ CREATE TABLE Users(
     password TINYTEXT NOT NULL
 );
 ```
+```sql
+CREATE TABLE Posts(
+    id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    title TINYTEXT NOT NULL,
+    content TINYTEXT NOT NULL,
+    posterID BIGINT NOT NULL,
+    creationDate TIMESTAMP NOT NULL
+);
+```
