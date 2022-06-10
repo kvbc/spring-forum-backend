@@ -1,6 +1,15 @@
 # spring-forum-backend
 
-SQL Tables
+### Spring dependencies
+
+- Lombok
+- Spring Web
+- MySQL Driver
+- Spring Data JPA
+- Spring Security
+- OAuth2 Client
+
+### SQL Tables
 
 ```sql
 CREATE TABLE Posts (
